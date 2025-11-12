@@ -4,6 +4,23 @@ All notable changes to cursor-claude-setup-2025 installer.
 
 ---
 
+## [1.1.5] - 2025-11-12
+
+### Changed
+
+- **Cleaned root directory**: Moved all internal docs to docs/ folder
+  - GITHUB-PUSH-COMPLETE.md → docs/
+  - PUBLISHED-v1.1.0.md → docs/
+  - STRUCTURE.md → docs/
+  - V1.1.3-COMPLETE.md → docs/
+  - Root now has only 7 essential files
+
+- **GitHub Actions**: Synced 2 workflow files added on GitHub
+  - .github/workflows/npm-publish.yml
+  - .github/workflows/npm-publish-github-packages.yml
+
+---
+
 ## [1.1.4] - 2025-11-12
 
 ### Changed
