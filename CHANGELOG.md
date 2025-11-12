@@ -4,6 +4,24 @@ All notable changes to cursor-claude-setup-2025 installer.
 
 ---
 
+## [1.1.1] - 2025-11-12
+
+### Documentation
+
+- **Updated package.json description**: Now accurately reflects v1.1.0 features (Exa, Firecrawl, dual-client commands)
+- **Removed course branding**: More generic and professional
+- **Added keywords**: exa, firecrawl, mcp-servers, prp, slash-commands
+- **Updated author**: Sid Dani <contact@contextengineering.dev>
+- **Rewrote README.md**: Complete rewrite with accurate v1.1.0 information
+  - Auto MCP configuration highlighted
+  - Dual-client command installation explained
+  - No API key prompts (placeholders)
+  - Correct skills guidance (plugin marketplace)
+  - Clear troubleshooting for MCP servers
+  - Removed outdated Archon-centric language
+
+---
+
 ## [1.1.0] - 2025-11-12
 
 ### Major Features Added
