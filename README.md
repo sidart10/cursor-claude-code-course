@@ -1,5 +1,3 @@
-# cursor-claude-setup-2025
-
 Auto-configure MCP servers for Cursor and Claude Code, plus install BMAD Framework.
 
 ```bash
@@ -27,13 +25,8 @@ npx cursor-claude-setup-2025
    - Writes `./.mcp.json` (in your current directory)
    - Merges `~/.cursor/mcp.json` (backs up first)
    - Merges `~/.claude/config.json` (backs up first)
-4. **Installs 2 commands** for both Cursor and Claude Code:
-   - `.claude/commands/generate-prp.md`
-   - `.claude/commands/execute-prp.md`
-   - `.cursor/commands/generate-prp.md`
-   - `.cursor/commands/execute-prp.md`
-5. Optional: Creates ~/cursor-claude-course workspace
-6. Shows results and next steps
+4. Optional: Creates ~/cursor-claude-course workspace
+5. Shows results and next steps
 
 ---
 
@@ -42,10 +35,6 @@ npx cursor-claude-setup-2025
 **You need Node.js 18+** to run this installer (includes npm/npx).
 
 Don't have Node? See `docs/INSTALL-NODE.md` or ask Cursor/Claude Code to help you install it.
-
-**After running the installer, you'll need**:
-- Cursor IDE ([download](https://cursor.com))
-- Claude Code CLI ([install](https://docs.claude.com/en/docs/claude-code/quickstart))
 
 ---
 
@@ -123,8 +112,8 @@ Open chat and ask: "What MCP tools are available?"
 
 **In Cursor or Claude Code**:
 Type `/` and you should see:
-- `/generate-prp`
-- `/execute-prp`
+- `/analyst`
+- `/pm`
 
 ### 4. Use BMAD Framework
 
@@ -145,10 +134,6 @@ Quick version:
 - **Exa** - AI web search (needs API key)
 - **Firecrawl** - Web scraping (needs API key)
 - **Serena** - Code navigation (no key needed)
-
-**Slash Commands** (2):
-- `/generate-prp` - Create implementation plans
-- `/execute-prp` - Execute plans with validation
 
 **BMAD Framework** (optional, enabled by default):
 - 12 AI agents (Analyst, PM, Architect, SM, DEV, etc.)
