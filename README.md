@@ -1,5 +1,3 @@
-# cursor-claude-setup-2025
-
 Auto-configure MCP servers for Cursor and Claude Code, plus install BMAD Framework.
 
 ```bash
@@ -27,13 +25,8 @@ npx cursor-claude-setup-2025
    - Writes `./.mcp.json` (in your current directory)
    - Merges `~/.cursor/mcp.json` (backs up first)
    - Merges `~/.claude/config.json` (backs up first)
-4. **Installs 2 commands** for both Cursor and Claude Code:
-   - `.claude/commands/generate-prp.md`
-   - `.claude/commands/execute-prp.md`
-   - `.cursor/commands/generate-prp.md`
-   - `.cursor/commands/execute-prp.md`
-5. Optional: Creates ~/cursor-claude-course workspace
-6. Shows results and next steps
+4. Optional: Creates ~/cursor-claude-course workspace
+5. Shows results and next steps
 
 ---
 
@@ -119,8 +112,8 @@ Open chat and ask: "What MCP tools are available?"
 
 **In Cursor or Claude Code**:
 Type `/` and you should see:
-- `/generate-prp`
-- `/execute-prp`
+- `/analyst`
+- `/pm`
 
 ### 4. Use BMAD Framework
 
